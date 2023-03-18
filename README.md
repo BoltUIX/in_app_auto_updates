@@ -13,13 +13,11 @@ dependencies:
 import 'package:in_app_auto_updates/in_app_auto_updates.dart';
 ```
 
-<hr>
+3. Call this function in your widget
 ```dart
-@override
-void initState() {
-    InAppUpdates().doInAppUpdates(); // Call this
-}
+InAppUpdates().doInAppUpdates(); // Call this initState
 ```
+
 <hr>
 
 <table>
