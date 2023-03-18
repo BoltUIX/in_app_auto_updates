@@ -1,7 +1,7 @@
 name: in_app_auto_updates
-description: A new Flutter project.
+description: Force Update Checker
 version: 0.0.1
-homepage:
+homepage: https://github.com/BoltUIX/in_app_auto_updates
 
 environment:
   sdk: '>=2.19.3 <3.0.0'

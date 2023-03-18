@@ -1,15 +1,26 @@
-# in_app_auto_updates
+# in_app_auto_updates_example
 
-A new Flutter project.
+Demonstrates how to use the in_app_auto_updates plugin.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
+```yaml
+dependencies:
+  in_app_auto_updates: ^0.0.1
+```
+2. Import the package and use it in your Flutter App.
+```dart
+import 'package:in_app_auto_updates/in_app_auto_updates.dart';
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<hr>
+
+<table>
+<tr>
+<td>
+<img  src="https://developer.android.com/static/images/app-bundle/immediate_flow.png"  alt="">
+</td>
+</tr>
+</table>
 
