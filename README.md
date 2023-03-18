@@ -14,11 +14,12 @@ import 'package:in_app_auto_updates/in_app_auto_updates.dart';
 ```
 
 <hr>
-
+```dart
 @override
 void initState() {
     InAppUpdates().doInAppUpdates(); // Call this
 }
+```
 <hr>
 
 <table>
