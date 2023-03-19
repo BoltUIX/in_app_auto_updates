@@ -1,6 +1,6 @@
 name: in_app_auto_updates
-description: Force Update Checker
-version: 0.0.2
+description: This is a lightweight Flutter plugin designed to check whether your app is up-to-date on the Google Play Store.
+version: 0.0.3
 homepage: https://github.com/BoltUIX/in_app_auto_updates
 
 environment:
@@ -10,14 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
-  plugin_platform_interface: ^2.0.2
+  plugin_platform_interface: ^2.1.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -38,18 +36,7 @@ flutter:
     platforms:
       android:
         package: com.boltuix.in_app_auto_updates
-        pluginClass: InAppAutoUpdatesPlugin
-      ios:
-        pluginClass: InAppAutoUpdatesPlugin
-      linux:
-        pluginClass: InAppAutoUpdatesPlugin
-      macos:
-        pluginClass: InAppAutoUpdatesPlugin
-      windows:
-        pluginClass: InAppAutoUpdatesPluginCApi
-      web:
-        pluginClass: InAppAutoUpdatesWeb
-        fileName: in_app_auto_updates_web.dart
+        pluginClass: InAppUpdatePlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

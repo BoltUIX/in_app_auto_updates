@@ -5,3 +5,9 @@
 ## 0.0.2
 
 * Bug fixes and performance improvements
+
+## 0.0.3
+
+* Improve documentation
+* Update dependencies
+* Fix Android build.
